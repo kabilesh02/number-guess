@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(7, 6, 6);
+    color: white;
+}
+
+.gamesubdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 165, 165);
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    border-radius: 10%;
+}
+.gamediv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gamediv button{
+    background-color: greenyellow;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
